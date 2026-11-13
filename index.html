@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Corner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Tasty Corner</div>
+    <nav class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p class="hero-tag">🔥 Open daily · 11 AM to 11 PM</p>
+    <h1>Fresh food, made with love</h1>
+    <p>Burgers, pizza and more. Come hungry, leave happy.</p>
+    <a href="#menu" class="hero-button">See our menu</a>
+  </section>
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>🍔 Fresh Burgers</span>
+      <span>🍕 Hot Pizza</span>
+      <span>🍟 Crispy Fries</span>
+      <span>🥤 Cold Drinks</span>
+      <span>🔥 Open Daily</span>
+    </div>
+  </div>
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-emoji">🍔</div>
+        <h3>Classic Burger</h3>
+        <p>Juicy beef, cheese, lettuce and our secret sauce.</p>
+        <span class="menu-price">$8.99</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-emoji">🍕</div>
+        <h3>Pepperoni Pizza</h3>
+        <p>Hot, cheesy and loaded with pepperoni.</p>
+        <span class="menu-price">$12.50</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-emoji">🍟</div>
+        <h3>Crispy Fries</h3>
+        <p>Golden, salty and always fresh.</p>
+        <span class="menu-price">$3.99</span>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>Tasty Corner started as a small family kitchen. Today we serve fresh burgers, pizza and more, made every day with simple, good ingredients.</p>
+      <p>Our goal is easy: great food, fair prices and a smile every time you visit.</p>
+    </div>
+    <div class="about-box">
+      <div class="about-number">10+</div>
+      <div>Years of happy customers</div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div>📍 123 Main Street</div>
+      <div>📞 +1 234 567 890</div>
+      <div>🕒 Open daily, 11 AM to 11 PM</div>
+    </div>
+    <form class="contact-form" action="https://formspree.io/f/mgakvplb" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+      <button type="submit">Send message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    © 2026 Tasty Corner. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
